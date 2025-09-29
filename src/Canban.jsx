@@ -10,9 +10,9 @@ const handleSubmit = (e) =>{
   return (
     <div className='a'>
       <form onSubmit={handleSubmit}>
-      
+       
       <div className='b'>
-      <input type="text" placeholder='What to do' value={todo} onChange={(e) => setTodo(e.target.value)}/>
+      <input type="text" placeholder='heyyyyyyyyy' value={todo} onChange={(e) => setTodo(e.target.value)}/>
       <button type='submit'>Add</button>
       </div>
 
